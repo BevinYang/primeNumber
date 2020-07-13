@@ -15,7 +15,7 @@ public class PrimeNumberCalc {
     }
 
     /**
-     * sum up prime number within the specific upper range value
+     * Calculate sum of prime number within the specific upper range value
      * @param urvNumber upper range value
      */
     public static long sumOfPrimeNum1(int urvNumber){
@@ -43,7 +43,7 @@ public class PrimeNumberCalc {
     }
 
     /**
-     * sum up prime number by using Math.sqrt to reduce looping count
+     * Calculate sum of prime number by using Math.sqrt to reduce looping count
      *
      * @param urvNumber upper range value
      */
