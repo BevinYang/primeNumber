@@ -19,7 +19,8 @@ public class PrimeNumberCalcTest {
 
     @Test
     public void testSumOfPrimeNum1() {
-        assertEquals(-1,instance.sumOfPrimeNum1(1));
+        assertEquals(0,instance.sumOfPrimeNum1(-2));
+        assertEquals(0,instance.sumOfPrimeNum1(1));
         assertEquals(2,instance.sumOfPrimeNum1(2));
         assertEquals(5,instance.sumOfPrimeNum1(3));
         assertEquals(17,instance.sumOfPrimeNum1(10));
@@ -27,10 +28,11 @@ public class PrimeNumberCalcTest {
 
     @Test
     public void testSumOfPrimeNum2() {
-        assertEquals(-1,instance.sumOfPrimeNum1(1));
-        assertEquals(2,instance.sumOfPrimeNum1(2));
-        assertEquals(5,instance.sumOfPrimeNum1(3));
-        assertEquals(17,instance.sumOfPrimeNum1(10));
+        assertEquals(0,instance.sumOfPrimeNum2(-2));
+        assertEquals(0,instance.sumOfPrimeNum2(1));
+        assertEquals(2,instance.sumOfPrimeNum2(2));
+        assertEquals(5,instance.sumOfPrimeNum2(3));
+        assertEquals(17,instance.sumOfPrimeNum2(10));
     }
 
 
